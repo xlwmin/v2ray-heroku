@@ -5,7 +5,7 @@
   "env": {
     "VER": {
        "description": "输入v2ray Core 版本号（latest表示最新版本）",
-       "value": "latest"
+       "value": "4.18.2"
      }, 
     "UUID": {
        "description": "Vmess协议默认UUID，请输入自己的UUID",
@@ -16,7 +16,7 @@
        "value": "10"
      }
   },
-  "website": "https://github.com/wangyi2005/v2ray-heroku",
-  "repository": "https://github.com/wangyi2005/v2ray-heroku",
+  "website": "https://github.com/xlwmin/v2ray-heroku",
+  "repository": "https://github.com/xlwmin/v2ray-heroku",
   "stack": "container"
  }
