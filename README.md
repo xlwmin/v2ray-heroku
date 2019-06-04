@@ -8,7 +8,14 @@
 
 4.客户端配置 client_config.json, 建议使用 cn_sniproxy+websocket+tls 传输协议。
 
+# 部署配置
+![Heroku 配置](https://raw.githubusercontent.com/xlwmin/v2ray-heroku/master/images/heroku.png)
+* 1、设置自己的App名称（例：xx123,最终访问地址为 xx123.herokuapp.com）
+* 2、设置V2ray服务访问ID（UUID格式），UUID通过[https://www.uuidgenerator.net/](https://www.uuidgenerator.net/) 可获取
+* 3、设置部署V2rayCore的版本，版本号可在此[https://github.com/v2ray/v2ray-core/releases](https://github.com/v2ray/v2ray-core/releases)查询
 
+# V2ray 配置
+![V2ray 配置](https://raw.githubusercontent.com/xlwmin/v2ray-heroku/master/images/v2ray.png)
 # 参考 
 https://github.com/v2ray/v2ray-core
 
